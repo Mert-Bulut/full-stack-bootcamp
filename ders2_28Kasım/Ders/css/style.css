@@ -1,0 +1,40 @@
+/*h1 {
+  color: red;
+}
+#h2id {
+  color: blue;
+  background-color: aqua;
+}
+.h3class {
+  color: black;
+  background-color: chartreuse;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+.info span {
+  color: blue;
+}
+
+.info .spanCl {
+  color: red;
+}
+
+* {
+  font-weight: bold;
+  color: brown;
+  font-size: 25px;
+}
+*/
+
+* {
+  color: green;
+}
+h1 {
+  color: blue;
+}
+#logo {
+  color: brown !important;
+}
