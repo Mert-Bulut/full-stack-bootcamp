@@ -1,0 +1,267 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: lightgray;
+}
+
+header{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li{
+    margin: 0 10px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar ul li a:hover{
+    background-color: lightslategrey;
+}
+
+main{
+    padding: 0;
+}
+
+section{
+    text-align: center;
+    margin: 25px;
+}
+
+.profile-picture{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.profile-picture img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-picture img:hover{
+    transform: scale(1.1);
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+}
+
+.education-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.education{
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.education:hover{
+    transform: translate(10px);
+}
+
+.education img{
+    width: 80px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.experience-container,
+.internship-container,
+.publication-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.experience,
+.internship,
+.publication{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.experience:hover,
+.internship:hover,
+.publication:hover{
+    transform: translate(10px);
+}
+
+.experience img,
+.internship img,
+.publication img{
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.experience h3,
+.internship h3,
+.publication h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.experience p,
+.internship p,
+.publication p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #555;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    bottom: 0;
+    width: 100½;
+}
+
+.contact label, 
+.contact p{
+    color: black;
+}
+
+.contact-left,
+.contact-center,
+.contact-right{
+    padding-top: 20px;
+    flex: 1;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width: calc(100% - 16px);
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+textarea{
+    resize: vertical;
+}
+
+button[type="submit"]{
+    padding: 10px 20px;
+    background-color: black;
+    color: #ccc;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover{
+    background-color: 333;
+}
+
+.social-media-icons{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.social-media-icons a{
+    color: black;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.social-media-icons a:hover{
+    color: white
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    position: relative;
+    list-style-type: none;
+    bottom: 0;
+    width: 100½;
+}
+
+.footer label, 
+.footer p{
+    color: white;
+}
+
+.footer-left,
+.footer-right{
+    flex: 1;
+    margin: 5px;
+}
+
+.footer-left p{
+    padding-left: 50px;
+}
+
+.contact-right{
+    display: flex;
+    padding-top: 250px;
+}
+
+/*Tablet*/
+@media(max-width: 768px){
+}
+
+/*Telefon*/
+@media(max-width: 576px){
+}
+
