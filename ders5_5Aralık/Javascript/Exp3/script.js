@@ -1,90 +1,100 @@
+// Film verileri
 var filmler = [
     {
-        id: 1,
-        ad: "Film 1",
-        yonetmen: "Yönetmen 1",
-        aciklama: "Film 1 hakkında yazılanlar",
-        resim: "https://via.placeholder.com/150"
-        
+      id: 1,
+      ad: "Film 1",
+      yonetmen: "Yönetmen 1",
+      aciklama: "Film 1 açıklaması.",
+      resim: "https://via.placeholder.com/150"
     },
     {
-        id: 2,
-        ad: "Film 2",
-        yonetmen: "Yönetmen 1",
-        aciklama: "Film 2 hakkında yazılanlar",
-        resim: "https://via.placeholder.com/150"
-    }
-];
-
-var filmListesi = document.getElementById("filmListesi");
-
-function filmListesiniGuncelle(){
-    filmListesi.innerHTML= "";
-    filmler.forEach(function(film,index){
-        var filmDiv = document.createElement("div");
-        filmDiv.classList.add("film");
-    
-        var filmResim = document.createElement("img");
-        filmResim.src= film.resim;
-        filmDiv.appendChild(filmResim);
-    
-        filmDiv.addEventListener("click", function(){
-            var filmDetay = document.getElementById("filmDetayi");
-            filmDetay.innerHTML = `<h2>${film.ad}</h2><p>Yönetmen: ${film.yonetmen}</p><p>Açıklama: ${film.aciklama}</p><button onclick=filmGuncelle(${film.id})Güncelle</button><button onclick=filmSil(${film.id})Sil</button>`;
-            filmDetay.classList.add("active");
-        });
-    
-        filmListesi.appendChild(filmDiv);
+      id: 2,
+      ad: "Film 2",
+      yonetmen: "Yönetmen 2",
+      aciklama: "Film 2 açıklaması.",
+      resim: "https://via.placeholder.com/150"
+    },
+    // Diğer film verileri...
+  ];
+  
+  // Film listesini oluşturma
+  var filmListesi = document.getElementById("filmListesi");
+  
+  function filmListesiniGuncelle() {
+    filmListesi.innerHTML = "";
+  
+    filmler.forEach(function(film, index) {
+      var filmDiv = document.createElement("div");
+      filmDiv.classList.add("film");
+      filmDiv.dataset.id = film.id;
+      
+      var filmResim = document.createElement("img");
+      filmResim.src = film.resim;
+      filmDiv.appendChild(filmResim);
+      
+      filmDiv.addEventListener("click", function() {
+        var filmDetay = document.getElementById("filmDetay");
+        filmDetay.innerHTML = `<h2>${film.ad}</h2><p>Yönetmen: ${film.yonetmen}</p><p>${film.aciklama}</p>
+          <button onclick="filmGuncelle(${film.id})">Güncelle</button>
+          <button onclick="filmSil(${film.id})">Sil</button>`;
+        filmDetay.classList.add("active");
+      });
+      
+      filmListesi.appendChild(filmDiv);
     });
-}
-
-
-filmListesiniGuncelle();
-
-function filmEkleFormuGoster(){
+  }
+  
+  filmListesiniGuncelle();
+  
+  // Yeni film ekleme formunu gösterme
+  function filmEkleFormuGoster() {
     var filmEkleFormu = document.getElementById("filmEkleFormu");
     filmEkleFormu.classList.toggle("active");
-}
-
-function filmEkle(){
+  }
+  
+  // Yeni film ekleme
+  function filmEkle() {
     var filmAd = document.getElementById("filmAd").value;
     var yonetmenAd = document.getElementById("yonetmenAd").value;
-    var filmAciklamasi = document.getElementById("filmAciklamasi").value;
+    var filmAciklama = document.getElementById("filmAciklama").value;
     var filmGorseli = document.getElementById("filmGorseli").value;
-
+  
     var yeniFilm = {
-        id: filmler.length+1,
-        ad: filmAd,
-        yonetmen: yonetmenAd,
-        aciklama: filmAciklamasi,
-        resim: filmGorseli
+      id: filmler.length + 1,
+      ad: filmAd,
+      yonetmen: yonetmenAd,
+      aciklama: filmAciklama,
+      resim: filmGorseli
     };
-    filmler.push(yeniFilm);    
-    filmListesiniGuncelle();
+  
+    filmler.push(yeniFilm);
     filmEkleFormuGoster();
-}
-
-function filmGuncelle(filmId){
-    var film = filmler.find(f => f.id == filmId);
-    
-    if(!film) return;
-
-    var yeniAd = prompt("Yeni film Adı:", film.ad);
-    var yeniYonetmen = prompt("Yeni film Yönetmeni:", film.yonetmen);
-    var yeniAciklama = prompt("Yeni film Açıklaması:", film.aciklama);
-    var yeniResim = prompt("Yeni film Resmi:", film.resim);
-
+    filmListesiniGuncelle();
+  }
+  
+  // Film güncelleme
+  function filmGuncelle(filmId) {
+    var film = filmler.find(f => f.id === filmId);
+    if (!film) return;
+  
+    var yeniAd = prompt("Yeni film adı:", film.ad);
+    var yeniYonetmen = prompt("Yeni yönetmen adı:", film.yonetmen);
+    var yeniAciklama = prompt("Yeni film açıklaması:", film.aciklama);
+    var yeniResim = prompt("Yeni film görsel URL'si:", film.resim);
+  
     film.ad = yeniAd || film.ad;
     film.yonetmen = yeniYonetmen || film.yonetmen;
     film.aciklama = yeniAciklama || film.aciklama;
-    film.resim = yeniAciklama || film.resim;
-
+    film.resim = yeniResim || film.resim;
+  
     filmListesiniGuncelle();
-}
-
-function filmSil(filmId){
-    var index = filmler.findIndex(f => f.id == filmId)
-    if(index == -1) return;
-    filmler.splice(index,1);
+  }
+  
+  // Film silme
+  function filmSil(filmId) {
+    var index = filmler.findIndex(f => f.id === filmId);
+    if (index === -1) return;
+  
+    filmler.splice(index, 1);
     filmListesiniGuncelle();
-}
+  }
