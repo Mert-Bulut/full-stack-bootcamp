@@ -1,0 +1,18 @@
+@model Proje.Data.Kullanici
+
+<h2>Giriş Yap</h2>
+<hr>
+<form asp-controller="Kullanici" asp-action="Index" method="post">
+    <div class="mb-3">
+        <label asp-for="Username" class="form-label">Kullanıcı Adı</label>
+        <input asp-for="Username" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label asp-for="Sifre" class="form-label">Şifre</label>
+        <input asp-for="Sifre" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-secondary">Giriş Yap</button>
+    <div>
+        <a href="/Kullanici/Create">Üyeliğin yoksa yeni üyelik oluşturun.</a>
+    </div>
+</form>
