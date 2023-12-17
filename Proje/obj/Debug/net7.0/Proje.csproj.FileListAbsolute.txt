@@ -66,3 +66,4 @@ C:\Users\mrtbl\OneDrive\Masaüstü\full-stack-bootcamp\Proje\obj\Debug\net7.0\re
 C:\Users\mrtbl\OneDrive\Masaüstü\full-stack-bootcamp\Proje\obj\Debug\net7.0\Proje.pdb
 C:\Users\mrtbl\OneDrive\Masaüstü\full-stack-bootcamp\Proje\obj\Debug\net7.0\Proje.genruntimeconfig.cache
 C:\Users\mrtbl\OneDrive\Masaüstü\full-stack-bootcamp\Proje\obj\Debug\net7.0\ref\Proje.dll
+C:\Users\mrtbl\OneDrive\Masaüstü\full-stack-bootcamp\Proje\obj\Debug\net7.0\scopedcss\Views\Iletisim\index.cshtml.rz.scp.css

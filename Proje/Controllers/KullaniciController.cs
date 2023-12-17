@@ -25,9 +25,9 @@ namespace Proje.Controllers
             return View();
         }
 
-        public IActionResult Profile()
+        public async Task<IActionResult> Profile()
         {
-           return View();
+           return View(await _context.Kullanicilar.ToListAsync());
         }
 
         public IActionResult Logout()

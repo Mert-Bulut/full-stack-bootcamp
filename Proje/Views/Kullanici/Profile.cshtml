@@ -1,8 +1,33 @@
-@model Kullanici
+@model IEnumerable<Kullanici>
 
-<h2>Profil</h2>
+<h2>Kullanıcı Bilgisi</h2>
 <hr>
-<form asp-controller="Kullanici" asp-action="Profile" method="post">
-    <div>Güncelle</div>
-    <div>Sil</div>
-</form>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(u => u.KullaniciAd)</th>
+            <th>@Html.DisplayNameFor(u => u.KullaniciSoyad)</th>
+            <th style="width: 150px;"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.KullaniciAd)</td>
+                    <td>@Html.DisplayFor(modelItem => item.KullaniciSoyad)</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.KullaniciId" class="btn btn-sm btn-primary">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@item.KullaniciId" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <p>Model boş.</p>
+        }
+    </tbody>
+</table>
