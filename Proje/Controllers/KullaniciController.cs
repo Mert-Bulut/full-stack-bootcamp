@@ -44,13 +44,10 @@ namespace Proje.Controllers
 
             if (kullanici != null)
             {
-                // Null olup olmadığını kontrol et
                 var kullaniciId = kullanici.KullaniciId.ToString();
-                var kullaniciAdi = kullanici.Username ?? "Bilinmeyen Kullanıcı"; // Eğer Username null ise varsayılan bir değer kullan
-
+                var kullaniciAdi = kullanici.Username ?? "Bilinmeyen Kullanıcı";
                 HttpContext.Session.SetString("KullaniciId", kullaniciId);
                 HttpContext.Session.SetString("KullaniciAdi", kullaniciAdi);
-
                 return RedirectToAction("Index", "Home");
             }
             else
@@ -59,7 +56,6 @@ namespace Proje.Controllers
                 return View(model);
             }
         }
-
 
         [HttpPost]
         public async Task<IActionResult> Create(Kullanici model)

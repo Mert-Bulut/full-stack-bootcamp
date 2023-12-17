@@ -16,6 +16,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\mrtbl\OneDrive\Masaüstü\full-stack-bootcamp\Proje
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Admin/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Admin/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Hakkimizda/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra2ltaXpkYVxpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
