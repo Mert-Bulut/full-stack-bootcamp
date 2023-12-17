@@ -1,3 +1,15 @@
+/* _content/Proje/Views/Home/Index.cshtml.rz.scp.css */
+.course-card[b-k16cuutibg]{
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.course-img[b-k16cuutibg]{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
 /* _content/Proje/Views/Iletisim/index.cshtml.rz.scp.css */
 h1[b-pc8poevvlo], h2[b-pc8poevvlo], h3[b-pc8poevvlo], h4[b-pc8poevvlo], h5[b-pc8poevvlo], h6[b-pc8poevvlo], p[b-pc8poevvlo], ul[b-pc8poevvlo], li[b-pc8poevvlo]{
     margin: 0;

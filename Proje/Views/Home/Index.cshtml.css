@@ -1,0 +1,11 @@
+.course-card{
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.course-img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
