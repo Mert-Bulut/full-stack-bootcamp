@@ -5,6 +5,102 @@
       "PackagePath": "staticwebassets\\Proje.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Araba\\main.jpg",
+      "PackagePath": "staticwebassets\\Img\\Araba\\main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Asgari\\asgari1.jpeg",
+      "PackagePath": "staticwebassets\\Img\\Asgari\\asgari1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Asgari\\asgari2.jpeg",
+      "PackagePath": "staticwebassets\\Img\\Asgari\\asgari2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Asgari\\asgari3.jpeg",
+      "PackagePath": "staticwebassets\\Img\\Asgari\\asgari3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Asgari\\asgari4.png",
+      "PackagePath": "staticwebassets\\Img\\Asgari\\asgari4.png"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Asgari\\asgari5.png",
+      "PackagePath": "staticwebassets\\Img\\Asgari\\asgari5.png"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Asgari\\asgari6.png",
+      "PackagePath": "staticwebassets\\Img\\Asgari\\asgari6.png"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Asgari\\main.jpg",
+      "PackagePath": "staticwebassets\\Img\\Asgari\\main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Deprem\\Istanbul\\ist1.jpeg",
+      "PackagePath": "staticwebassets\\Img\\Deprem\\Istanbul\\ist1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Deprem\\Istanbul\\ist2.png",
+      "PackagePath": "staticwebassets\\Img\\Deprem\\Istanbul\\ist2.png"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Deprem\\Istanbul\\ist3.png",
+      "PackagePath": "staticwebassets\\Img\\Deprem\\Istanbul\\ist3.png"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Deprem\\Istanbul\\ist4.png",
+      "PackagePath": "staticwebassets\\Img\\Deprem\\Istanbul\\ist4.png"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Deprem\\Istanbul\\ist5.png",
+      "PackagePath": "staticwebassets\\Img\\Deprem\\Istanbul\\ist5.png"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Deprem\\Istanbul\\main.jpg",
+      "PackagePath": "staticwebassets\\Img\\Deprem\\Istanbul\\main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Ftx\\ftx1.jpeg",
+      "PackagePath": "staticwebassets\\Img\\Ftx\\ftx1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Ftx\\main.jpg",
+      "PackagePath": "staticwebassets\\Img\\Ftx\\main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Kripto\\main.jpg",
+      "PackagePath": "staticwebassets\\Img\\Kripto\\main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Osym\\main.jpg",
+      "PackagePath": "staticwebassets\\Img\\Osym\\main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Osym\\osym1.jpeg",
+      "PackagePath": "staticwebassets\\Img\\Osym\\osym1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Osym\\osym2.jpeg",
+      "PackagePath": "staticwebassets\\Img\\Osym\\osym2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Samsung\\S24\\main.jpg",
+      "PackagePath": "staticwebassets\\Img\\Samsung\\S24\\main.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Samsung\\S24\\samsung1.jpg",
+      "PackagePath": "staticwebassets\\Img\\Samsung\\S24\\samsung1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Samsung\\S24\\samsung2.png",
+      "PackagePath": "staticwebassets\\Img\\Samsung\\S24\\samsung2.png"
+    },
+    {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Wednesday\\main.jpg",
+      "PackagePath": "staticwebassets\\Img\\Wednesday\\main.jpg"
+    },
+    {
       "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

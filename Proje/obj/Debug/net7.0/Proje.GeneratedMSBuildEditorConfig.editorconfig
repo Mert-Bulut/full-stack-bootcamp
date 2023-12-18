@@ -32,6 +32,34 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Haber/Araba.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiZXJcQXJhYmEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Haber/Asgari.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiZXJcQXNnYXJpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Haber/Ftx.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiZXJcRnR4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Haber/IstDeprem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiZXJcSXN0RGVwcmVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Haber/Kripto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiZXJcS3JpcHRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Haber/Osym.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiZXJcT3N5bS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Haber/Wednesday.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiZXJcV2VkbmVzZGF5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Hakkimizda/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra2ltaXpkYVxpbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -72,12 +100,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Haber/SamsungS24.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiZXJcU2Ftc3VuZ1MyNC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = b-m4rayqax4y
+
 [C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-k16cuutibg
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Iletisim/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWxldGlzaW1caW5kZXguY3NodG1s
+[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Iletisim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWxldGlzaW1cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-pc8poevvlo
 
 [C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Shared/_Layout.cshtml]

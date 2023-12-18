@@ -68,3 +68,5 @@ C:\Users\mrtbl\OneDrive\Masaüstü\full-stack-bootcamp\Proje\obj\Debug\net7.0\Pr
 C:\Users\mrtbl\OneDrive\Masaüstü\full-stack-bootcamp\Proje\obj\Debug\net7.0\ref\Proje.dll
 C:\Users\mrtbl\OneDrive\Masaüstü\full-stack-bootcamp\Proje\obj\Debug\net7.0\scopedcss\Views\Iletisim\index.cshtml.rz.scp.css
 C:\Users\mrtbl\OneDrive\Masaüstü\full-stack-bootcamp\Proje\obj\Debug\net7.0\scopedcss\Views\Home\Index.cshtml.rz.scp.css
+C:\Users\mrtbl\OneDrive\Masaüstü\full-stack-bootcamp\Proje\obj\Debug\net7.0\scopedcss\Views\Haber\SamsungS24.cshtml.rz.scp.css
+C:\Users\mrtbl\OneDrive\Masaüstü\full-stack-bootcamp\Proje\obj\Debug\net7.0\scopedcss\Views\Haber\Araba.cshtml.rz.scp.css

@@ -1,16 +1,53 @@
+/* _content/Proje/Views/Haber/SamsungS24.cshtml.rz.scp.css */
+table[b-m4rayqax4y], th[b-m4rayqax4y], td[b-m4rayqax4y] {
+  border:1px solid black;
+}
 /* _content/Proje/Views/Home/Index.cshtml.rz.scp.css */
-.course-card[b-k16cuutibg]{
+.carousel-caption[b-k16cuutibg] {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-caption[b-k16cuutibg] {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.news-card[b-k16cuutibg] {
     border: 1px solid #ccc;
     padding: 15px;
     border-radius: 5px;
     margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
-.course-img[b-k16cuutibg]{
+
+.news-card img[b-k16cuutibg] {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+    flex: 0 0 20%;
+    margin-right: 20px;
 }
-/* _content/Proje/Views/Iletisim/index.cshtml.rz.scp.css */
+
+.news-card .col-md-12[b-k16cuutibg] {
+    flex: 1;
+    min-width: 0;
+}
+
+.news-card h4[b-k16cuutibg], .news-card p[b-k16cuutibg] {
+    word-wrap: break-word;
+}
+
+/* _content/Proje/Views/Iletisim/Index.cshtml.rz.scp.css */
 h1[b-pc8poevvlo], h2[b-pc8poevvlo], h3[b-pc8poevvlo], h4[b-pc8poevvlo], h5[b-pc8poevvlo], h6[b-pc8poevvlo], p[b-pc8poevvlo], ul[b-pc8poevvlo], li[b-pc8poevvlo]{
     margin: 0;
     padding: 0;
