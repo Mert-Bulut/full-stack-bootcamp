@@ -1,23 +1,16 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Proje.Data;
+using Proje.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// MVC Controller desteği
 builder.Services.AddControllersWithViews();
 
-// IHttpContextAccessor servisini ekleme
-builder.Services.AddHttpContextAccessor();
+builder.Services.AddDbContext<IdentityContext>(
+    options => options.UseSqlite(builder.Configuration["ConnectionStrings:SqLite_Connection"]));
 
-// Veritabanı bağlantısı
-builder.Services.AddDbContext<DataContext>(options =>
-{
-    var config = builder.Configuration;
-    var connectionString = config.GetConnectionString("data");
-    options.UseSqlite(connectionString);
-});
+builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<IdentityContext>();
 
-// Oturum desteği
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);
@@ -25,24 +18,51 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    // Default Password settings.
+    options.Password.RequireDigit = false;
+    options.Password.RequireLowercase = false;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequiredLength = 8;
+    options.Password.RequiredUniqueChars = 1;
+
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+    options.Lockout.MaxFailedAccessAttempts = 5;
+});
+
+builder.Services.ConfigureApplicationCookie(options => {
+    options.LoginPath = "/Account/Login";
+    options.AccessDeniedPath = "/Account/AccessDenied";
+    options.SlidingExpiration = true;
+    options.ExpireTimeSpan = TimeSpan.FromDays(30);
+});
+
 var app = builder.Build();
 
-// Uygulama yapılandırması
+// Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
 app.UseRouting();
 
 app.UseSession();
 
+app.UseAuthentication();
 app.UseAuthorization();
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+IdentitySeedData.IdentityTestUser(app);
 
 app.Run();

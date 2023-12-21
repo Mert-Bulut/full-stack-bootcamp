@@ -9,109 +9,101 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Proje
 build_property.RootNamespace = Proje
-build_property.ProjectDir = C:\Users\mrtbl\OneDrive\Masaüstü\full-stack-bootcamp\Proje\
+build_property.ProjectDir = C:\Users\mrtbl\OneDrive\Masaüstü\Proje\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\mrtbl\OneDrive\Masaüstü\full-stack-bootcamp\Proje
+build_property.MSBuildProjectDirectory = C:\Users\mrtbl\OneDrive\Masaüstü\Proje
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Admin/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Admin/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Admin/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Admin/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Haber/Araba.cshtml]
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Haber/Araba.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiZXJcQXJhYmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Haber/Asgari.cshtml]
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Haber/Asgari.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiZXJcQXNnYXJpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Haber/Ftx.cshtml]
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Haber/Ftx.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiZXJcRnR4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Haber/IstDeprem.cshtml]
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Haber/IstDeprem.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiZXJcSXN0RGVwcmVtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Haber/Kripto.cshtml]
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Haber/Kripto.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiZXJcS3JpcHRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Haber/Osym.cshtml]
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Haber/Osym.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiZXJcT3N5bS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Haber/Wednesday.cshtml]
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Haber/Wednesday.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiZXJcV2VkbmVzZGF5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Hakkimizda/index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra2ltaXpkYVxpbmRleC5jc2h0bWw=
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Kullanici/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXENyZWF0ZS5jc2h0bWw=
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Roles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Kullanici/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXEVkaXQuY3NodG1s
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Roles/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Kullanici/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXEluZGV4LmNzaHRtbA==
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Roles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Kullanici/Profile.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXFByb2ZpbGUuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Shared/Error.cshtml]
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Shared/_Navbar.cshtml]
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Shared/_Navbar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/_ViewImports.cshtml]
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/_ViewStart.cshtml]
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Haber/SamsungS24.cshtml]
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Haber/SamsungS24.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFiZXJcU2Ftc3VuZ1MyNC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-m4rayqax4y
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Home/Index.cshtml]
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-k16cuutibg
 
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Iletisim/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWxldGlzaW1cSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-pc8poevvlo
-
-[C:/Users/mrtbl/OneDrive/Masaüstü/full-stack-bootcamp/Proje/Views/Shared/_Layout.cshtml]
+[C:/Users/mrtbl/OneDrive/Masaüstü/Proje/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wzp8xvl3am
