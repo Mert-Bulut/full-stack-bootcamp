@@ -17,5 +17,9 @@
         <label asp-for="RememberMe" class="form-check-label"></label>
         <input asp-for="RememberMe" class="form-check-input">
     </div>
+    <div class="mb-3">
+        <a href="/Account/Create">Üyeliğin yoksa yeni üyelik oluşturun.</a>
+    </div>
     <button type="submit" class="btn btn-primary">Giriş Yap</button>
+    <a asp-action="ForgotPassword" class="btn btn-warning">Şifremi Unuttum</a>
 </form>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mtMG4AMfWeRPTmUIgVXE2NFXvUouKd6hlfz2IX6JorXNhoZwvcEw3/TdlSaNirtwGDfU6tBCLHwDnaycVyKvgw==",
+  "dgSpecHash": "o7SdjwCtYe3zQygrhW/ywbFG/BXm9x+W9+x+vDaqFSqjqcEoH4GIe/mi3k0MFjxV7QQnFiZuruDyHaB33j9VBA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\Proje\\Proje.csproj",
+  "projectFilePath": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\Proje.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrtbl\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\mrtbl\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.0\\microsoft.aspnetcore.cryptography.internal.7.0.0.nupkg.sha512",

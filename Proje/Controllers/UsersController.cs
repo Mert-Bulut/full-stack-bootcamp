@@ -7,54 +7,23 @@ using Proje.ViewModels;
 
 namespace Proje.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin")]
     public class UsersController : Controller{
 
         private UserManager<AppUser> _userManager;
         private RoleManager<AppRole> _roleManager;
 
-        private SignInManager<AppUser> _signInManager;
-
-        public UsersController(UserManager<AppUser> userManager, RoleManager<AppRole> roleManager, SignInManager<AppUser> signInManager)
-        {
+        public UsersController(UserManager<AppUser> userManager, RoleManager<AppRole> roleManager){
             _userManager = userManager;
             _roleManager = roleManager;
-            _signInManager = signInManager;
         }
-
         public IActionResult Index (){
-
+            if(!User.IsInRole("Admin")){
+                return RedirectToAction("Login","Account");
+            }
             return View(_userManager.Users);
         }
-        
-        public IActionResult Create (){
-
-            return View();
-        }
-
-        public async Task<IActionResult> Logout()
-        {
-            await _signInManager.SignOutAsync();
-            return RedirectToAction("Index", "Home");
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> Create (CreateViewModel model){
-
-            if(ModelState.IsValid){
-                var user = new AppUser{UserName = model.UserName, Email = model.Email, FullName = model.FullName};
-                IdentityResult result = await _userManager.CreateAsync(user, model.Password);
-
-                if(result.Succeeded){
-                    return RedirectToAction("Index");
-                }
-                foreach(IdentityError err in result.Errors){
-                    ModelState.AddModelError("",err.Description);
-                }
-            }
-            return View();
-        }
-
+ 
         public async Task<IActionResult> Edit(string id){
 
             if(id == null){

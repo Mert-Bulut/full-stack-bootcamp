@@ -47,6 +47,105 @@ table[b-m4rayqax4y], th[b-m4rayqax4y], td[b-m4rayqax4y] {
     word-wrap: break-word;
 }
 
+/* _content/Proje/Views/Iletisim/Index.cshtml.rz.scp.css */
+h1[b-pc8poevvlo], h2[b-pc8poevvlo], h3[b-pc8poevvlo], h4[b-pc8poevvlo], h5[b-pc8poevvlo], h6[b-pc8poevvlo], p[b-pc8poevvlo], ul[b-pc8poevvlo], li[b-pc8poevvlo]{
+    margin: 0;
+    padding: 0;
+}
+
+section[b-pc8poevvlo]{
+    display: flex;
+    text-align: center;
+    margin: 25px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.btn[b-pc8poevvlo]{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn:hover[b-pc8poevvlo]{
+    background-color: #555;
+}
+
+.contact-container[b-pc8poevvlo]{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    bottom: 0;
+    width: 100½;
+}
+
+.contact label[b-pc8poevvlo], 
+.contact p[b-pc8poevvlo]{
+    color: black;
+}
+
+.contact-left[b-pc8poevvlo],
+.contact-center[b-pc8poevvlo],
+.contact-right[b-pc8poevvlo]{
+    padding-top: 5px;
+    flex: 1;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+}
+
+.form-group[b-pc8poevvlo]{
+    margin-bottom: 10px;
+}
+
+input[type="text"][b-pc8poevvlo],
+input[type="email"][b-pc8poevvlo],
+textarea[b-pc8poevvlo]{
+    width: calc(100% - 16px);
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+textarea[b-pc8poevvlo]{
+    resize: vertical;
+}
+
+button[type="submit"][b-pc8poevvlo]{
+    padding: 10px 20px;
+    background-color: black;
+    color: #ccc;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+button[type="submit"]:hover[b-pc8poevvlo]{
+    background-color: 333;
+}
+
+.social-media-icons[b-pc8poevvlo]{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.social-media-icons a[b-pc8poevvlo]{
+    color: gray;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.social-media-icons a:hover[b-pc8poevvlo]{
+    color: black
+}
 /* _content/Proje/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */

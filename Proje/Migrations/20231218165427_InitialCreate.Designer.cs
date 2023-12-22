@@ -11,7 +11,7 @@ using Proje.Models;
 namespace Proje.Migrations
 {
     [DbContext(typeof(IdentityContext))]
-    [Migration("20231221124941_InitialCreate")]
+    [Migration("20231218165427_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -168,6 +168,7 @@ namespace Proje.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("FullName")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<bool>("LockoutEnabled")

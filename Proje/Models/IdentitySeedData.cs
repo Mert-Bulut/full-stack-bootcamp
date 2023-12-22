@@ -28,9 +28,6 @@ namespace Proje.Models
 
                 await UserManager.CreateAsync(user,adminPassword);
             }
-
         }
-
-
     }
 }
