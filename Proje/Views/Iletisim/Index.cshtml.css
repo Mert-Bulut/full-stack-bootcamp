@@ -1,98 +1,140 @@
-h1, h2, h3, h4, h5, h6, p, ul, li{
-    margin: 0;
-    padding: 0;
+h1, h2, h3, h4, h5, h6, p, ul, li {
+	margin: 0;
+	padding: 0;
 }
 
-section{
-    display: flex;
-    text-align: center;
-    margin: 25px;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-    padding: 20px;
+.contact-container {
+	background-image: url('/Img/İletişim/İletişim.JPG');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around; 
+	align-items: center;
+	position: relative;
+	overflow: hidden;
+}
+.contact-center form label {
+	font-weight: bold  !important; 
+	color: #333;
+	background: rgba(255, 255, 255, 0.8); 
+	padding: 0.5em 1em;
+	margin-bottom: 0.5em; 
 }
 
-.btn{
-    display: inline-block;
-    padding: 8px 16px;
-    background-color: #333;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: transform 0.3s ease-in-out;
+section {
+	display: flex;
+	justify-content: center; 
+	margin: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.6;
 }
 
-.btn:hover{
-    background-color: #555;
+
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #007BFF;
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	border-radius: 0.25rem;
+	transition: background-color 0.3s ease-in-out;
 }
 
-.contact-container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style-type: none;
-    bottom: 0;
-    width: 100½;
+.btn:hover {
+	background-color: #0056b3;
+}
+button[type="submit"] {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 15px 30px; 
+	border-radius: 4px; 
 }
 
-.contact label, 
-.contact p{
-    color: black;
+.contact-left, .contact-center, .contact-right {
+	padding: 20px; 
 }
 
-.contact-left,
-.contact-center,
-.contact-right{
-    padding-top: 5px;
-    flex: 1;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 5px;
+
+.form-group {
+	margin-bottom: 15px; 
 }
 
-.form-group{
-    margin-bottom: 10px;
+.form-group input[name="name"],
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    display: block; 
+    width: 100%; 
+    padding: 0.5em; 
+    margin-bottom: 0.5em; 
+    box-sizing: border-box;
+}
+.form-group textarea {
+	height: 150px; 
+	resize: vertical; 
+}
+.form-group input[name="name"] {
+	font-size: 18px; 
 }
 
-input[type="text"],
-input[type="email"],
-textarea{
-    width: calc(100% - 16px);
-    padding: 8px;
-    border-radius: 4px;
-    border: 1px solid black;
+.form-group label {
+	margin-bottom: 10px; 
+	font-weight: bold; 
+	background: rgba(255, 255, 255, 0.8); 
+	padding: 10px; 
+	border-radius: 4px;
+}
+.social-media-heading {
+	font-size: 1.2rem; 
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 10px; 
+	text-align: center;
 }
 
-textarea{
-    resize: vertical;
+textarea {
+	resize: vertical;
 }
 
-button[type="submit"]{
-    padding: 10px 20px;
-    background-color: black;
-    color: #ccc;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: transform 0.3s ease-in-out;
+.social-media-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style-type: none; 
+}
+.social-media-icons a {
+	font-size: 2rem;
+	margin: 0 1rem; 
+	color: #007BFF;
 }
 
-button[type="submit"]:hover{
-    background-color: 333;
+.contact-right {
+	background: rgba(255, 255, 255, 0.7); 
+	padding: 10px;
+	border-radius: 4px; 
 }
 
-.social-media-icons{
-    text-align: right;
-    margin-top: 20px;
+.social-media-icons a:hover {
+	color: #0056b3;
 }
 
-.social-media-icons a{
-    color: gray;
-    font-size: 24px;
-    margin: 0 10px;
-}
+@media (max-width: 768px) {
+	.contact-container {
+		 flex-direction: column;
+	}
 
-.social-media-icons a:hover{
-    color: black
+	.contact-center, .contact-right {
+		 width: 100%;
+		 margin: 0;
+		 padding: 1rem;
+	}
+
+	.social-media-icons a {
+		 font-size: 1.5rem; 
+		 margin: 0 .5rem;
+	}
 }

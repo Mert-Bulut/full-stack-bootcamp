@@ -23,7 +23,7 @@
         <tbody>
             @if(ViewBag.Users != null){
         @if(ViewBag.Users.Count == 0){
-            <tr><td colspan="4" class="text-center">User Yok</td></tr>
+            <tr><td colspan="4" class="text-center">Kullanıcı Yok</td></tr>
         }
             @foreach(var user in ViewBag.Users){
                 <tr>
@@ -31,7 +31,7 @@
                     <td>@user.FullName</td>
                     <td>@user.Email</td>
                     <td>
-                        <a asp-controller="Users" asp-action="Edit" asp-route-id="@user.Id" class="btn btn-primary btn-sm">Edit</a>                     
+                        <a asp-controller="Users" asp-action="Edit" asp-route-id="@user.Id" class="btn btn-primary btn-sm">Güncelle</a>                     
                     </td>
                 </tr>
             }

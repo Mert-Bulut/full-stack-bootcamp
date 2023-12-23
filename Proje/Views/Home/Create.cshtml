@@ -1,0 +1,23 @@
+@model CreateNewsViewModel
+<h2>Yeni Haber Ekle</h2>
+<hr>
+<form asp-controller="Home" asp-action="Create" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="mb-3">
+        <label asp-for="haberBasligi"1>Başlık</label>
+        <input asp-for="haberBasligi" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label asp-for="haberAltBasligi">Alt Başlık</label>
+        <input asp-for="haberAltBasligi" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label asp-for="haberIcerigi">İçerik</label>
+        <textarea asp-for="haberIcerigi" class="form-control"></textarea>
+    </div>
+    <div class="mb-3">
+        <label asp-for="haberGorseli">İçerik</label>
+        <input type="file" asp-for="haberGorseli" class="form-control">
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>

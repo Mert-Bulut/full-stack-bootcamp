@@ -15,6 +15,9 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<IdentityContext>(
     options => options.UseSqlite(builder.Configuration["ConnectionStrings:SqLite_Connection"]));
 
+builder.Services.AddDbContext<NewsContext>(
+    options => options.UseSqlite(builder.Configuration["ConnectionStrings:SqLite_Connection"]));
+
 builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<IdentityContext>().AddDefaultTokenProviders();
 
 builder.Services.Configure<IdentityOptions>(options =>

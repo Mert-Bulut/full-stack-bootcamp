@@ -169,6 +169,10 @@
       "PackagePath": "staticwebassets\\Img\\logo.jpg"
     },
     {
+      "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\İletişim\\İletişim.JPG",
+      "PackagePath": "staticwebassets\\Img\\İletişim\\İletişim.JPG"
+    },
+    {
       "Id": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

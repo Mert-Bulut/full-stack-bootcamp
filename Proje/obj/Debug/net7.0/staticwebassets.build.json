@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MdMAQp8OU0X1pRFhBQAJn9VDpmvDyIZcCBLqGmgcuBk=",
+  "Hash": "lD21XbjtxXm435DdWavv6504BVwascaoEjW0Fh3bUVQ=",
   "Source": "Proje",
   "BasePath": "_content/Proje",
   "Mode": "Default",
@@ -491,6 +491,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Img\\Ftx\\main.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\İletişim\\İletişim.JPG",
+      "SourceId": "Proje",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\",
+      "BasePath": "_content/Proje",
+      "RelativePath": "Img/İletişim/İletişim.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Img\\İletişim\\İletişim.JPG"
     },
     {
       "Identity": "C:\\Users\\mrtbl\\OneDrive\\Masaüstü\\full-stack-bootcamp\\Proje\\wwwroot\\Img\\Kripto\\kripto1.jpeg",

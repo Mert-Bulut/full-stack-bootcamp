@@ -1,5 +1,5 @@
 @model IEnumerable<AppRole>
-    <a class="btn btn-primary" asp-action="Create">Create User</a>
+    <a class="btn btn-primary" asp-action="Create">Kullanıcı Ekle</a>
     <hr>
 
     <table class="table table-sm table-bordered">
@@ -20,8 +20,8 @@
                 <td asp-role-users="@role.Id"></td>
                 <td>
                     <form method="post">
-                        <a class="btn btn-primary btn-sm" asp-action="Edit" asp-route-id="@role.Id">Edit</a>
-                        <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                        <a class="btn btn-primary btn-sm" asp-action="Edit" asp-route-id="@role.Id">Güncelle</a>
+                        <button type="submit" class="btn btn-sm btn-danger">Sil</button>
                     </form>
                 </td>
             </tr>

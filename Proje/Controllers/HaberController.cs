@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-
+using Proje.ViewModels;
 namespace Proje.Controllers
 {
     public class HaberController : Controller {
