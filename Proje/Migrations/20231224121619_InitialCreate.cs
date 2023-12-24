@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Proje.Migrations.News
+namespace Proje.Migrations
 {
     /// <inheritdoc />
     public partial class InitialCreate : Migration
@@ -11,6 +11,21 @@ namespace Proje.Migrations.News
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "IletisimFormlari",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Ad = table.Column<string>(type: "TEXT", nullable: true),
+                    Eposta = table.Column<string>(type: "TEXT", nullable: true),
+                    Mesaj = table.Column<string>(type: "TEXT", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_IletisimFormlari", x => x.Id);
+                });
+
             migrationBuilder.CreateTable(
                 name: "NewsItems",
                 columns: table => new
@@ -32,6 +47,9 @@ namespace Proje.Migrations.News
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "IletisimFormlari");
+
             migrationBuilder.DropTable(
                 name: "NewsItems");
         }

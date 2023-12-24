@@ -1,6 +1,6 @@
 @model LoginViewModel
 
-<h2>Login</h2>
+<h2>Giriş Yap</h2>
 <hr>
 <form asp-action="Login" method="post">
     <div asp-validation-summary="All" class="text-danger"></div>
@@ -14,12 +14,12 @@
         <input asp-for="Password" class="form-control">
     </div>
     <div class="form-check mb-3">
-        <label asp-for="RememberMe" class="form-check-label"></label>
+        <label asp-for="RememberMe" class="form-check-label">Beni Hatırla</label>
         <input asp-for="RememberMe" class="form-check-input">
     </div>
     <div class="mb-3">
-        <a href="/Account/Create">Üyeliğin yoksa yeni üyelik oluşturun.</a>
+        <a href="/Account/ForgotPassword">Şifremi Unuttum</a>
     </div>
     <button type="submit" class="btn btn-primary">Giriş Yap</button>
-    <a asp-action="ForgotPassword" class="btn btn-warning">Şifremi Unuttum</a>
+    <a asp-action="Create" class="btn btn-warning">Kayıt Ol</a>
 </form>

@@ -8,13 +8,13 @@ namespace Proje.Controllers;
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-    private readonly NewsContext _context;
+    private readonly UsersContext _context;
 
-    public HomeController(ILogger<HomeController> logger, NewsContext context)
-{
-    _logger = logger;
-    _context = context;
-}
+    public HomeController(ILogger<HomeController> logger, UsersContext context)
+    {
+        _logger = logger;
+        _context = context;
+    }
 
     public IActionResult Index()
     {

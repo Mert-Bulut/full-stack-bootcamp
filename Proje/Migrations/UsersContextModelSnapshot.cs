@@ -2,23 +2,40 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Proje.Models;
 
 #nullable disable
 
-namespace Proje.Migrations.News
+namespace Proje.Migrations
 {
-    [DbContext(typeof(NewsContext))]
-    [Migration("20231223142303_InitialCreate")]
-    partial class InitialCreate
+    [DbContext(typeof(UsersContext))]
+    partial class UsersContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.11");
+
+            modelBuilder.Entity("Proje.Models.IletisimFormu", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Ad")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Eposta")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Mesaj")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("IletisimFormlari");
+                });
 
             modelBuilder.Entity("Proje.Models.NewsItem", b =>
                 {

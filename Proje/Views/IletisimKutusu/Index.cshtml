@@ -1,0 +1,16 @@
+@model List<Proje.Models.IletisimFormu>
+
+<table class="table table-sm table-bordered">
+    <tr>
+        <th>Adı</th>
+        <th>E-postalar</th>
+        <th>Mesajlar</th>
+    </tr>
+    @foreach(var item in Model){
+        <tr>
+            <td>@item.Ad</td>
+            <td>@item.Eposta</td>
+            <td>@item.Mesaj</td>
+        </tr>
+    }
+</table>

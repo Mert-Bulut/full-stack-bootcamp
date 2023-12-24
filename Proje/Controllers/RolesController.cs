@@ -1,9 +1,11 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Proje.Models;
 
 namespace Proje.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class RolesController :Controller{
 
         private readonly RoleManager<AppRole> _roleManager;
@@ -15,6 +17,9 @@ namespace Proje.Controllers
         }
 
         public IActionResult Index(){
+            if(!User.IsInRole("Admin")){
+                return RedirectToAction("Login","Account");
+            }
             return View(_roleManager.Roles);
         }
 
