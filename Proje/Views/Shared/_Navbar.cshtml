@@ -30,16 +30,14 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-controller="IletisimKutusu" asp-action="Index">İletişim Kutusu</a>
                         </li>
+                        
+                    }
+                    if(User.IsInRole("Editor")){
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-controller="Editor" asp-action="Index">Editör</a>
+                        </li>
                     }
                 }
-            </ul>
-            <ul>
-                <div class="nav-item ms-auto" style="width: 400px;">
-                    <div class="input-group mt-3">
-                        <input type="text" class="form-control" placeholder="Ara">
-                        <button class="btn btn-primary" type="button">Ara</button>
-                    </div>
-                </div>
             </ul>
             <ul class="navbar-nav ms-5">
                 @if(User.Identity?.IsAuthenticated == true){

@@ -1,0 +1,17 @@
+<div class="container mt-5">
+    <h2>Kullanıcı Haberleri</h2>
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-12">
+                <div class="news-card">
+                    <img src="@(item.ImagePath)" class="d-block w-20">
+                    <div class="col-md-12">
+                        <h4>@item.Title</h4>
+                        <p>@item.Content</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
